@@ -2,7 +2,9 @@
 **FitTrackPy: Getting Started Guide**
 Installation
 Before you can start using FitTrackPy, you need to install it. You can do this using pip:
-<sub>pip install FitTrackPy</sub>
+'''
+pip install FitTrackPy
+'''
 **Usage**
 1. Import the Library
 Start by importing the necessary modules from the FitTrackPy library in your Python script:
