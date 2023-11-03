@@ -33,7 +33,7 @@ for workout in user1.workouts:</br>
    for exercise in workout.exercises:</br>
         print(f"Exercise: {exercise.name}, Sets: {exercise.sets}, Reps: {exercise.reps}, Weight: {exercise.weight} lbs")</br>
 
-for goal in user1.goals:</br>
-    print(f"Goal: {goal.exercise_name}")</br>
-    print(f"Target Sets: {goal.target_sets}, Target Reps: {goal.target_reps}, Target Weight: {goal.target_weight}")</br>
-    print(f"Progress: {goal.progress}%")</br>
+    for goal in user1.goals:</br>
+       print(f"Goal: {goal.exercise_name}")</br>
+       print(f"Target Sets: {goal.target_sets}, Target Reps: {goal.target_reps}, Target Weight: {goal.target_weight}")</br>
+       print(f"Progress: {goal.progress}%")</br>
